@@ -17,6 +17,7 @@ def process_tweet(tweet):
     stemmer = PorterStemmer()
     lemmatizer = WordNetLemmatizer()
     stopwords_english = stopwords.words('english')
+    # adding the most often and meaningless words for sentiment analysis to stopword list
     stopwords_english.extend(['togg', 'toggs', 'togger', 'also', 'teacher'])
     # remove stock market tickers like $GE
     tweet = re.sub(r'\$\w*', '', tweet)
