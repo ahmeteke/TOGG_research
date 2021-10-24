@@ -8,3 +8,5 @@ In code driectory there are four python files that is:
 The sentiment_analysis.py python programming file developed and used to perform sentiment analysis on related data. In this analysis, the utils_lr.py python programming file is imported and used for pre-processing the data.
 
 The topic_modelling_analysis.py python programming file was developed and used for topic modeling analysis. In this analysis, the python programming file utils_to.py is imported and used to pre-process the data.
+
+the word_cloud.py file for word clouds all tweets.
